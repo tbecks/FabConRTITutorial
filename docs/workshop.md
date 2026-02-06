@@ -13,13 +13,26 @@ duration_minutes: 360 # Required. Estimated duration in minutes
 audience: students, pro devs, analysts # Optional. Audience of the workshop (students, pro devs, etc.)
 tags: fabric, kql, realtime, intelligence, event, stream, sql, data, analytics, kusto, medallion, dashboard, reflex, activator # Required. Tags for filtering and searching
 ---
+# Real-Time Intelligence Virtual Workshop
+This is a condensed version of the original RTI workshop that is intended to be **2 hours to complete**.  It is intended to give a high level, hands on overview of RTI and its core features.
 
-# Introduction
+# Workshop Agenda
+- [Introduction to Workshop](./workshop.md#introduction)
+- [Lab Example & Techical Archiecture](./workshop.md#lab-example--techical-archiecture) 
+- [Lab Build Instructions](./workshop.md#lab-build-instructions)
+   1. [Create Fabric Workspace and Eventhouse for RTI](./workshop.md#2-fabric-workspace)
+   2. [Real-time Data Processing with Eventstream](./workshop.md#5-create-a-new-eventstream)
+   3. [Deploy Data Generating Notebok](./workshop.md#6-import-data-generator-notebook)
+   4. [Eventhouse and Lakehouse Integration](./workshop.md#9-setting-up-the-lakehouse)
+   5. [Real-time Dashboards](./workshop.md#13-real-time-dashboard)
+   6. [Alerting with Data Activator](./workshop.md#14-data-activator)
+
+# Introduction to Workshop
 
 Suppose you own an e-commerce website selling bike accessories. You have millions of
 visitors a month, you want to analyze the website traffic, consumer patterns and predict sales.
 
-This workshop will walk you through the process of building an end-to-end [Real-Time Intelligence](https://blog.fabric.microsoft.com/en-us/blog/introducing-real-time-intelligence-in-microsoft-fabric) Solution in MS Fabric, using the medallion architecture, for your e-commerce website.
+This workshop will walk you through the process of building an end-to-end [Real-Time Intelligence](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/overview) Solution in MS Fabric.
 
 You will learn how to:
 
@@ -33,7 +46,7 @@ You will learn how to:
 
 See what real customers like [McLaren](https://www.linkedin.com/posts/shahdevang_if-you-missed-flavien-daussys-story-at-build-activity-7199013652681633792-3hdp), [Dener Motorsports](https://customers.microsoft.com/en-us/story/1751743814947802722-dener-motorsport-producose-ltd-azure-service-fabric-other-en-brazil), [Elcome](https://customers.microsoft.com/en-us/story/1770346240728000716-elcome-microsoft-copilot-consumer-goods-en-united-arab-emirates), [Seair Exim Solutions](https://customers.microsoft.com/en-us/story/1751967961979695913-seair-power-bi-professional-services-en-india) & [One NZ](https://customers.microsoft.com/en-us/story/1736247733970863057-onenz-powerbi-telecommunications-en-new-zealand) are saying.
 
-All the **code** in this tutorial can be found here:  
+This is a **condendsed version** (2 hours) of the full workshop (4 hours) which can be found here:
 [Build Fabric Real-Time Intelligence solution in a day](https://github.com/microsoft/FabConRTITutorial/)
 
 ## Modalities
@@ -71,6 +84,7 @@ This workshop/tutorial was originally written by the following authors and is av
 - If you'd like to contribute to this lab, report a bug or issue, please feel free to submit a Pull-Request to the [GitHub repo](https://github.com/microsoft/FabConRTITutorial/) for us to review or [submit Issues](https://github.com/microsoft/FabConRTITutorial/issues) you encounter.
 
 ---
+# Lab Example & Techical Archiecture
 
 ## Lab Example: An e-commerce store
 
@@ -301,6 +315,7 @@ Let's cover the key-features of Real-Time Intelligence and how we plan to use th
   ![Copilot](assets/Copilot.png "Fabric Copilot in KQL Queryset")
 
 ---
+# Lab Build Instructions
 
 ## Pre-requisites
 
@@ -311,7 +326,7 @@ Let's cover the key-features of Real-Time Intelligence and how we plan to use th
 
 
 
-## Building the platform - Notebook
+## Build Instructions
 
 ### 1. Login to Lab Environment
 
@@ -330,7 +345,7 @@ Let's cover the key-features of Real-Time Intelligence and how we plan to use th
 
    ![Fabric Home](assets/image_task01_step03.png "Real-Time Intelligence")
 
-### 2. Fabric Workspace
+### 2. Create Fabric Workspace
 
 1. Click **Workspaces** on the left menu and open the Fabric Workspace **designated** to your login by the Fabric Trial Tenant.
 2. (Optional) If using your own Fabric Tenant, create a new workspace for this lab.
