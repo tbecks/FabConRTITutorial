@@ -1,18 +1,4 @@
----
-published: true # Optional. Set to true to publish the workshop (default: false)
-type: workshop # Required.
-title: Building Fabric Real-Time Intelligence solution in a day # Required. Full title of the workshop
-short_title: Build A Fabric Real-Time Intelligence Solution in One Day # Optional. Short title displayed in the header
-description: In this technical workshop, you will build a complete analytics platform with streaming data using Microsoft Fabric Real-Time Intelligence components and other features of Microsoft Fabric. This is a proctor led worksop in which each section is accompanied by a technical overview of Fabric RTI components. # Required.
-level: intermediate # Required. Can be 'beginner', 'intermediate' or 'advanced'
-authors: # Required. You can add as many authors as needed
-  - Microsoft Fabric Real-Time Intelligence
-contacts: # Required. Must match the number of authors
-  - https://aka.ms/fabricblog
-duration_minutes: 360 # Required. Estimated duration in minutes
-audience: students, pro devs, analysts # Optional. Audience of the workshop (students, pro devs, etc.)
-tags: fabric, kql, realtime, intelligence, event, stream, sql, data, analytics, kusto, medallion, dashboard, reflex, activator # Required. Tags for filtering and searching
----
+
 # Real-Time Intelligence Virtual Workshop
 This is a condensed version of the original RTI workshop that is intended to be **2 hours to complete**.  It is intended to give a high level, hands on overview of RTI and its core features.
 
@@ -20,7 +6,8 @@ This is a condensed version of the original RTI workshop that is intended to be 
 - [Introduction to Workshop](./workshop.md#introduction)
 - [Lab Example & Techical Archiecture](./workshop.md#lab-example--techical-archiecture) 
 - [Lab Build Instructions](./workshop.md#lab-build-instructions)
-   1. [Create Fabric Workspace and Eventhouse for RTI](./workshop.md#2-fabric-workspace)
+
+   1.  [Create Fabric Workspace and Eventhouse for RTI](./workshop.md#2-fabric-workspace)
    2. [Real-time Data Processing with Eventstream](./workshop.md#5-create-a-new-eventstream)
    3. [Deploy Data Generating Notebok](./workshop.md#6-import-data-generator-notebook)
    4. [Eventhouse and Lakehouse Integration](./workshop.md#9-setting-up-the-lakehouse)
@@ -49,41 +36,7 @@ See what real customers like [McLaren](https://www.linkedin.com/posts/shahdevang
 This is a **condendsed version** (2 hours) of the full workshop (4 hours) which can be found here:
 [Build Fabric Real-Time Intelligence solution in a day](https://github.com/microsoft/FabConRTITutorial/)
 
-## Modalities
 
-- Total workshop duration is 4 hours.
-- Each section is accompanied with technical explanation of the Fabric Real-Time Intelligence component being used in the tutorial.
-- Without the accompanied explanation, the tutorial can be completed in 1-2 hours.
-
-
-
-## Original Creators
-
-This workshop/tutorial was originally written by the following authors and is available at [Fabric-RTI-Workshop](https://aka.ms/fabricrtiworkshop)
-
-- [Denise Schlesinger](https://github.com/denisa-ms), Microsoft, Principal CSA
-- [Hiram Fleitas](https://aka.ms/hiram), Microsoft, Senior CSA
-- Guy Yehudy, Microsoft, Principal PM
-
-## Authors
-
-- [Brian Bønk Rueløkke](https://www.linkedin.com/in/brianbonk/), Data Platform MVP
-- [Devang Shah](https://www.linkedin.com/in/shahdevang/), Principal Program Manager, Microsoft
-- [Frank Geisler](https://www.linkedin.com/in/frank-geisler/), Data Platform MVP
-- [Johan Ludvig Brattås](https://www.linkedin.com/in/johanludvig/), Data Platform MVP
-- [Matt Gordon](https://www.linkedin.com/in/sqlatspeed/), Data Platform MVP
-
-## RTI Workshop Contributors
-
-- [Tyler Becker](https://www.linkedin.com/in/becker8/), Principal Solution Engineer, Microsoft
-- [Slava Trofimov](https://www.linkedin.com/in/slava-trofimov/), Principal Solution Engineer, Microsoft
-- [Nicolas Soukoff](https://www.linkedin.com/in/nicosoukoff/), Principal Solution Engineer, Microsoft
-
-## Contributing
-
-- If you'd like to contribute to this lab, report a bug or issue, please feel free to submit a Pull-Request to the [GitHub repo](https://github.com/microsoft/FabConRTITutorial/) for us to review or [submit Issues](https://github.com/microsoft/FabConRTITutorial/issues) you encounter.
-
----
 # Lab Example & Techical Archiecture
 
 ## Lab Example: An e-commerce store
