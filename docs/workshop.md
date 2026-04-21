@@ -1076,8 +1076,7 @@ SilverImpressions
 2. Paste the following code in the text area and click on the button **Apply changes**
 
    ```
-   //Logo (Markdown Text Tile)
-   ![AdventureWorks](https://raw.githubusercontent.com/tbecks/FabConRTITutorial/refs/heads/fix-rta-dashboard-logo/dashboards/adventure-works-logo-150x150.png)
+   ![AdventureWorks](https://raw.githubusercontent.com/tbecks/FabConRTITutorial/refs/heads/main/dashboards/adventure-works-logo-150x150.png)
    ```
 
    ![alt text](assets/image_task13_step17c.png)
