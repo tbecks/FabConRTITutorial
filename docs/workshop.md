@@ -899,7 +899,7 @@ In this section, we will build a real-time dashboard to visualize the streaming 
 
    ![alt text](assets/image_task13_step07.png)
 
-Proceed to paste each query below, add a visual, and apply changes. (Optionally) All queries are available in this script file [dashboard-RTA.kql](https://github.com/microsoft/FabricRTIWorkshop/blob/main/dashboards/RTA%20dashboard/dashboard-RTA.kql).
+Proceed to paste each query below, add a visual, and apply changes. (Optionally) All queries are available in this script file [dashboard-RTA.kql](https://github.com/tbecks/FabricRTIWorkshop/blob/main/dashboards/dashboard-RTA.kql).
 
    <div class="important" data-title="Note">
 
@@ -1077,7 +1077,7 @@ SilverImpressions
 
    ```
    //Logo (Markdown Text Tile)
-   ![AdventureWorks](https://vikasrajput.github.io/resources/PBIRptDev/AdventureWorksLogo.jpg "AdventureWorks")
+   ![AdventureWorks](https://raw.githubusercontent.com/tbecks/FabConRTITutorial/refs/heads/fix-rta-dashboard-logo/dashboards/adventure-works-logo-150x150.png)
    ```
 
    ![alt text](assets/image_task13_step17c.png)
@@ -1116,7 +1116,12 @@ In this section we will create a Reflex Alert that will send a Teams Message whe
 
    ![alt text](assets/image_task14_step01.png)
 
-2. In the pane **Set alert** set the values as stated in the following table
+2. In the **Add rule** pane set the name of the alert rule
+
+   ![Set alert rule name](assets/image_task14_step01b.jpg)
+
+
+3. In the pane **Set alert** set the values as stated in the following table
 
    | Field              | Value                        |
    | :----------------- | :--------------------------- |
@@ -1130,7 +1135,7 @@ In this section we will create a Reflex Alert that will send a Teams Message whe
 
    ![alt text](assets/image_task14_step02.png)
 
-3. In the combobox **Workspace** select the workspace. In our example the workspace is named **RTI Tutorial**. If you have been assigned a Workspace at the start of this lab, choose the workspace name that was provided to you. Ensure that in the combobox **Item** the value **Create a new item** is selected. Insert `My Reflex` as value for the field **New item name**. Then click on the button **Create**.
+4. In the combobox **Workspace** select the workspace. In our example the workspace is named **RTI Tutorial**. If you have been assigned a Workspace at the start of this lab, choose the workspace name that was provided to you. Ensure that in the combobox **Item** the value **Create a new item** is selected. Insert `My Reflex` as value for the field **New item name**. Then click on the button **Create**.
 
    ![alt text](assets/image_task14_step03.png)
 
